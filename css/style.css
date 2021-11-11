@@ -19,17 +19,14 @@
 
 .card{
    width: calc(99%/3);
-   /* height: 500px; */
-   border: 1px solid black;
    display: inline-block;
 }
 .product{
    position: relative;
    width: 100%;
    height: 450px;
-   background-image: url('..//img/1.webp');
-   background-position: center;
    background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .badge {
@@ -69,10 +66,26 @@
    right: 0;
 }
 
+
+
 /* Regole Main specifiche  */
 
 
 .price-red {
    color: red;
    font-size: 15px;
+}
+
+.product.levis-bordeaux {
+   background-image: url('..//img/1.webp');
+}
+.product.levis-bordeaux:hover {
+   background-image: url('../img/1b.webp');
+}
+
+.product.guess {
+   background-image: url('../img/2.webp');
+}
+.product.guess:hover {
+   background-image: url('../img/2b.webp');
 }
