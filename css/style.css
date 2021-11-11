@@ -18,7 +18,7 @@
 }
 
 .card{
-   width: calc(99%/3);
+   width: calc(90%/3);
    display: inline-block;
 }
 .product{
@@ -73,7 +73,7 @@
 
 /* Regole Main specifiche  */
 
-.badge.nature:last-child {
+.pullover .badge.nature{
    position: absolute;
    bottom: 10px;
    left: 0;
