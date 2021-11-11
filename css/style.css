@@ -14,7 +14,7 @@
 
 .container {
    width: 1080px;
-   margin: 20px auto;
+   margin: 25px auto 50PX;
 }
 
 .card{
@@ -73,11 +73,17 @@
 
 /* Regole Main specifiche  */
 
+.badge.nature:last-child {
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+}
 
 .price-red {
    color: red;
    font-size: 15px;
 }
+
 
 .product.levis-bordeaux {
    background-image: url('..//img/1.webp');
@@ -86,6 +92,7 @@
    background-image: url('../img/1b.webp');
 }
 
+
 .product.guess {
    background-image: url('../img/2.webp');
 }
@@ -93,9 +100,34 @@
    background-image: url('../img/2b.webp');
 }
 
+
 .product.tailleur {
    background-image: url('..//img/3b.webp');
 }
 .product.tailleur:hover {
    background-image: url('..//img/3.webp');
+}
+
+
+.product.levis-red {
+   background-image: url('..//img/4.webp');
+}
+.product.levis-red:hover {
+   background-image: url('..//img/4b.webp');
+}
+
+
+.product.dress-maya {
+   background-image: url('..//img/5.webp');
+}
+.product.dress-maya:hover {
+   background-image: url('..//img/5b.webp');
+}
+
+
+.product.pullover {
+   background-image: url('..//img/6.webp');
+}
+.product.pullover:hover {
+   background-image: url('..//img/6b.webp');
 }
