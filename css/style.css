@@ -20,6 +20,7 @@
 .card{
    width: calc(90%/3);
    display: inline-block;
+   cursor: pointer;
 }
 .product{
    position: relative;
