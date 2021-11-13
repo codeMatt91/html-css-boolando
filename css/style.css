@@ -4,6 +4,12 @@
    box-sizing: border-box;
 }
 
+.clearfix::after {
+   display: table;
+   content: '';
+   clear: both;
+}
+
 /* Regole Generali  */
 
 .banner {
@@ -18,7 +24,9 @@
 }
 
 .card{
-   width: calc(90%/3);
+   float: left;
+   width: calc((100%/3) - 10px);
+   margin: 0 5px;
    display: inline-block;
    cursor: pointer;
 }
